@@ -6,6 +6,8 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
 import tyflex from '../public/images/works/tyflex.jpeg'
+import dtmoney from '../public/images/works/dtmoney.jpeg';
+import bikcraft from '../public/images/works/bikcraft.jpeg';
 
 const Works = () => (
   <Layout title="Works">
@@ -28,6 +30,24 @@ const Works = () => (
             thumbnail={thumbWalknote}
           >
             Aplicativo de recomendação de música para iOS
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="bikcraft"
+            title="bikcraft"
+            thumbnail={bikcraft}
+          >
+            Site para vendas de bike
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="dtmoney"
+            title="dtmoney"
+            thumbnail={dtmoney}
+          >
+            Aplicativo de controle financeiro
           </WorkGridItem>
         </Section>
       </SimpleGrid>
