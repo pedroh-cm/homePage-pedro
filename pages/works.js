@@ -8,6 +8,7 @@ import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
 import tyflex from '../public/images/works/tyflex.jpeg'
 import dtmoney from '../public/images/works/dtmoney.jpeg';
 import bikcraft from '../public/images/works/bikcraft.jpeg';
+import aluraCase from '../public/images/works/alura-cases.png'; 
 
 const Works = () => (
   <Layout title="Works">
@@ -48,6 +49,16 @@ const Works = () => (
             thumbnail={dtmoney}
           >
             Aplicativo de controle financeiro
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="alura-cases"
+            title="Alura Cases"
+            thumbnail={aluraCase}
+          >
+            
+            Landing page criada com Next.js e React.js
           </WorkGridItem>
         </Section>
       </SimpleGrid>
