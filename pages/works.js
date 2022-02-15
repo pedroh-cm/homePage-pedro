@@ -9,6 +9,7 @@ import tyflex from '../public/images/works/tyflex.jpeg'
 import dtmoney from '../public/images/works/dtmoney.jpeg';
 import bikcraft from '../public/images/works/bikcraft.jpeg';
 import aluraCase from '../public/images/works/alura-cases.png'; 
+import telaGameMontyHall from '../public/images/works/page_inicial_jogo_portas.png'
 
 const Works = () => (
   <Layout title="Works">
@@ -59,6 +60,16 @@ const Works = () => (
           >
             
             Landing page criada com Next.js e React.js
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="game-portas"
+            title="Game Porta Premiada"
+            thumbnail={telaGameMontyHall}
+          >
+            
+            Game page criada com Next.js e React.js
           </WorkGridItem>
         </Section>
       </SimpleGrid>
