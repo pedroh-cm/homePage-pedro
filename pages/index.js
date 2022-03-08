@@ -28,7 +28,7 @@ const Home = () => (
         textAlign="center"
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
       >
-        Olá, eu sou desenvolvedor Front End Engineer
+        Olá, eu sou desenvolvedor Front End 
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -62,11 +62,11 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-        Me chamo Pedro Henrique Carlos Morinelli, tenho 21 anos.
-        Sou novo nessa jornada de desenvolvimento web, atualmente estou me dedicando a ser Front-end Developer Engineer. 
-        Procuro estar sempre a par das novidades para criar interfaces seguindo conceitos modernos, responsivos e clean, focado na usabilidade do usuário.
-        Estou em constante aprendizado, participando de eventos e sempre programando e desenvolvendo algo. <br/>
-        Atualmente faço parte do time de Desenvolvimento da Cobasi Labs, onde desenvolvo aplicações voltada para o e-commerce com a utilização da VTEX
+          Me chamo Pedro Henrique Carlos Morinelli, tenho 20 anos. <br/>
+          Sou novo nessa jornada de desenvolvimento web, atualmente estou me dedicando a ser Front-end Developer Engineer.  <br />
+          Procuro estar sempre a par das novidades para criar interfaces seguindo conceitos modernos, responsivos e clean, focado na usabilidade do usuário.
+          Estou em constante aprendizado, participando de eventos e sempre programando e desenvolvendo algo. <br/>
+          Atualmente faço parte do time de Desenvolvimento da Cobasi Labs, onde desenvolvo aplicações voltada para o e-commerce com a utilização da VTEX
         {' '}.
         </Paragraph>
         <Box align="center" my={4}>
@@ -80,23 +80,23 @@ const Home = () => (
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-          Bio
+        Bio
         </Heading>
         <BioSection>
-          <BioYear>2001</BioYear>
-            Nasceu em Guarulhos - SP - Brasil.
+          <BioYear>2002</BioYear>
+          Nasceu em Guarulhos - SP - Brasil.
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
-            Entrou pro time do Cobasi Labs
+          Entrou pro time do Cobasi Labs
         </BioSection>
         <BioSection>
           <BioYear>2022</BioYear>
-            Graduação em Análise e Desenvolvimento de Sistemas - FIAP
+          Graduação em Análise e Desenvolvimento de Sistemas - Faculdade Eniac
         </BioSection>
         <BioSection>
           <BioYear>2022 to present</BioYear>
-            Front End Cobasi Labs 
+          Front End Cobasi Labs 
         </BioSection>
       </Section>
 
