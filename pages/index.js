@@ -80,22 +80,22 @@ const Home = () => (
 
       <Section delay={0.2}>
         <Heading as="h3" variant="section-title">
-        Bio
+        Bio 
         </Heading>
         <BioSection>
-          <BioYear>2002</BioYear>
+          <BioYear>2002 - </BioYear>
           Nasceu em Guarulhos - SP - Brasil.
         </BioSection>
         <BioSection>
-          <BioYear>2021</BioYear>
+          <BioYear>2021 - </BioYear>
           Entrou pro time do Cobasi Labs
         </BioSection>
         <BioSection>
-          <BioYear>2022</BioYear>
+          <BioYear>2022 - </BioYear>
           Graduação em Análise e Desenvolvimento de Sistemas - Faculdade Eniac
         </BioSection>
         <BioSection>
-          <BioYear>2022 to present</BioYear>
+          <BioYear>2022 to present - </BioYear>
           Front End Cobasi Labs 
         </BioSection>
       </Section>
