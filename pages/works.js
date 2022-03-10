@@ -11,7 +11,7 @@ const Works = () => (
 
       <Section delay={0.1}>
         <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <p>em breve - aguarde 🚀</p>
+          <p>Em breve - aguarde 🚀</p>
         </SimpleGrid>
       </Section>
     </Container>
