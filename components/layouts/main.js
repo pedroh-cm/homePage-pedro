@@ -21,7 +21,6 @@ const Main = ({ children, router }) => {
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta name="twitter:image" content="/card.png" />
         <meta property="og:site_name" content="Pedro Morinelli Homepage" />
-        <meta property="og:type" content="website" />
         <meta property="og:image" content="/card.png" />
         <title>Pedro Henrique - Homepage</title>
       </Head>
