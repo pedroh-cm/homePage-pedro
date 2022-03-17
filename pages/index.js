@@ -75,6 +75,12 @@ const Home = () => (
               My portfolio
             </Button>
           </NextLink>
+
+          <NextLink href="https://drive.google.com/file/d/1KiGRdRE_wHhDenlN-OX3mF5hXwbTfTWx/view?usp=sharing">
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal" ml={4}>
+              My curriculum
+            </Button>
+          </NextLink>
         </Box>
       </Section>
 
