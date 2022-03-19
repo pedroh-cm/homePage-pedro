@@ -10,7 +10,7 @@ const Posts = () => (
       </Heading>
 
       <Section delay={0.1}>
-        <SimpleGrid columns={[1]} mb={6}>
+        <SimpleGrid columns={[1]} mb={4}>
           <Heading as="h2" fontSize={20} mb={4} variant="section-title" lineHeight={1.8}>TypeScript: por trás do superset de JavaScript</Heading>
           <Text mb={4}>Um conjunto de ferramentas JavaScript que adicionou tipagem e novos recursos na linguagem</Text>
           <Text mb={4}>Faz algum tempo já que estamos encantados com o TypeScript e já inserimos a tecnologia em nossa programação diária.</Text>
