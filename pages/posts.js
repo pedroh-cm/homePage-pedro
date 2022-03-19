@@ -5,13 +5,13 @@ import Section from '../components/section'
 const Posts = () => (
   <Layout title="Posts">
     <Container>
-      <Heading as="h3" fontSize={20} mb={4}>
+      <Heading as="h1" fontSize={20} mb={4}>
         Popular Posts
       </Heading>
 
       <Section delay={0.1}>
         <SimpleGrid columns={[1]} mb={8}>
-          <Heading as="h1" fontSize={20} mb={4} variant="section-title">TypeScript: por trás do superset de JavaScript</Heading>
+          <Heading as="h2" fontSize={20} mb={4} variant="section-title" lineHeight={1.8}>TypeScript: por trás do superset de JavaScript</Heading>
           <Text mb={4}>Um conjunto de ferramentas JavaScript que adicionou tipagem e novos recursos na linguagem</Text>
           <Text mb={4}>Faz algum tempo já que estamos encantados com o TypeScript e já inserimos a tecnologia em nossa programação diária.</Text>
           <Text mb={5}>Entre iniciantes ainda existe muitas dúvidas sobre o que significa, na prática, TypeScript e quais são suas diferenças com o JavaScript.</Text>
@@ -20,8 +20,8 @@ const Posts = () => (
         </SimpleGrid>
 
         <SimpleGrid columns={[1]}>
-          <Heading as="h1" fontSize={20} mb={4} variant="section-title">JAMstack: geleia de JavaScript, API e Markup</Heading>
-          <Heading as="h2" fontSize={18} mb={4}>O que significa e por que é considerada uma arquitetura moderna de desenvolvimento web?</Heading>
+          <Heading as="h2" fontSize={20} mb={4} variant="section-title" lineHeight={1.8}>JAMstack: geleia de JavaScript, API e Markup</Heading>
+          <Heading as="h3" fontSize={18} mb={4}>O que significa e por que é considerada uma arquitetura moderna de desenvolvimento web?</Heading>
           <Text mb={4}>Uma arquitetura moderna de desenvolvimento, vista como vanguarda na renascença de web sites estáticos, e com nome de um doce popularmente conhecido como GELEIA.</Text>
           <Text mb={5}>Criada por Mathias Biilmann, CEO do Netlify, JAMstack é uma filosofia de criação de sites estáticos que insere conceitos e práticas específicas dentro de um ecossistema tecnológico.</Text>
           <Heading fontSize={20} mb={4} variant="section-title">JAM</Heading>
