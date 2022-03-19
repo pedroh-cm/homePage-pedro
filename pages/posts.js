@@ -10,7 +10,7 @@ const Posts = () => (
       </Heading>
 
       <Section delay={0.1}>
-        <SimpleGrid columns={[1]} mb={8}>
+        <SimpleGrid columns={[1]} mb={6}>
           <Heading as="h2" fontSize={20} mb={4} variant="section-title" lineHeight={1.8}>TypeScript: por trás do superset de JavaScript</Heading>
           <Text mb={4}>Um conjunto de ferramentas JavaScript que adicionou tipagem e novos recursos na linguagem</Text>
           <Text mb={4}>Faz algum tempo já que estamos encantados com o TypeScript e já inserimos a tecnologia em nossa programação diária.</Text>
@@ -23,9 +23,8 @@ const Posts = () => (
           <Heading as="h2" fontSize={20} mb={4} variant="section-title" lineHeight={1.8}>JAMstack: geleia de JavaScript, API e Markup</Heading>
           <Heading as="h3" fontSize={18} mb={4}>O que significa e por que é considerada uma arquitetura moderna de desenvolvimento web?</Heading>
           <Text mb={4}>Uma arquitetura moderna de desenvolvimento, vista como vanguarda na renascença de web sites estáticos, e com nome de um doce popularmente conhecido como GELEIA.</Text>
-          <Text mb={5}>Criada por Mathias Biilmann, CEO do Netlify, JAMstack é uma filosofia de criação de sites estáticos que insere conceitos e práticas específicas dentro de um ecossistema tecnológico.</Text>
+          <Text mb={4}>Criada por Mathias Biilmann, CEO do Netlify, JAMstack é uma filosofia de criação de sites estáticos que insere conceitos e práticas específicas dentro de um ecossistema tecnológico.</Text>
           <Heading fontSize={20} mb={4} variant="section-title">JAM</Heading>
-
           <UnorderedList>
             <ListItem mb={4}><Text fontWeight="bold" display="inline-block">JavaScript</Text> obviamente, é o componente responsável em popularizar a arquitetura.</ListItem>
             <ListItem mb={4}>A linguagem é amplamente utilizada no mercado de desenvolvimento web.</ListItem>
