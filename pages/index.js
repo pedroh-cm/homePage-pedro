@@ -76,7 +76,7 @@ const Home = () => (
             </Button>
           </NextLink>
 
-          <NextLink href="https://drive.google.com/file/d/1KiGRdRE_wHhDenlN-OX3mF5hXwbTfTWx/view?usp=sharing">
+          <NextLink href="https://drive.google.com/file/d/1N0GkJGpVQrvbwz7RSfYugHjFWDPS9dec/view?usp=sharing">
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal" ml={4}>
               My curriculum
             </Button>
