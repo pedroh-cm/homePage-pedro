@@ -36,7 +36,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Pedro Henrique C M
           </Heading>
-          <p>Front end developer (JavaScript | React.js | Next.js)</p>
+          <p>Front-end developer (JavaScript | React.js | Next.js)</p>
         </Box>
         <Box
           flexShrink={0}
@@ -111,11 +111,10 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
           <Link href="https://www.braziljs.org/" target="_blank">
-            JavaScript
-          </Link>
-          , Skateboard, Basketball
+            JavaScript,
+          </Link> {' '}
+            Art, Music,{' '} Skateboard, Basketball
         </Paragraph>
       </Section>
 
