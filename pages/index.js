@@ -62,6 +62,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
+          Programar é o poder de modal o futuro. <br/>
           Me chamo Pedro Henrique Carlos Morinelli, tenho 20 anos. <br/>
           Sou novo nessa jornada de desenvolvimento web, atualmente estou me dedicando a ser Front-end Developer Engineer.  <br />
           Procuro estar sempre a par das novidades para criar interfaces seguindo conceitos modernos, responsivos e clean, focado na usabilidade do usuário.
